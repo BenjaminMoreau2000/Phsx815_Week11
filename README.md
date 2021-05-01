@@ -1,1 +1,2 @@
-# Phsx815_Week11
+The code asks you to state how many clusters to make and how much variance they should have, then it randomly generates clusters around some randomly chosen centers. The generated clusters are represented by colored triangles, and the fit of the data is represented by colored circles. If there is a mismatch of circle and triangle color, it means that a data point was fit to a cluster that it didn't actually belong to. This happens frequently if you allow a high variance, but of course that is to be expected since there will be greater overlap. In the figure, you can see very few incorrectly labelled points, and they exist only around the borders of the clusters.
+
